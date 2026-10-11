@@ -35,4 +35,5 @@ https://text-to-sql-rag-api.onrender.com
 
 You can use sample database from database folder in this repository. The Schema of Chinook database is shown below
 
-<img width="1067" height="725" alt="image" src="https://github.com/user-attachments/assets/4f3cbd09-3583-4f9f-9147-39cb1db9720c" />
+<img width="1048" height="710" alt="image" src="https://github.com/user-attachments/assets/4d6da113-82d0-42fc-bcd1-be44c907971f" />
+
