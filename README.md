@@ -30,8 +30,38 @@ that converts natural language questions into precise SQL queries using hybrid s
 - **Frontend**: HTML, CSS, JavaScript (Fetch API)  used Gemini to do the frontend beautification.
 
 
-## Test it Live at
-https://text-to-sql-rag-api.onrender.com
+## HOW TO RUN THIS APPLICATION LOCALLY
+
+Prerequisites:
+- Python 3.10 or higher installed.
+- A Google Gemini API Key.
+
+Step 1: Clone the Repository
+Open your terminal/command prompt and run:
+git clone https://github.com/PorasKumar/mini_text2sql.git
+cd mini_text2sql
+
+Step 2: Create and Activate a Virtual Environment
+- On Windows:
+  python -m venv venv
+  venv\Scripts\activate
+
+- On macOS/Linux:
+  python3 -m venv venv
+  source venv/bin/activate
+
+Step 3: Install Required Dependencies
+Run the following command to install all necessary packages:
+pip install -r requirements.txt
+
+Step 4: Set Up Your API Key
+1. Create a file named .env in the root project folder.
+2. Add your Google Gemini API key inside the .env file like this:
+   GOOGLE_API_KEY="your_actual_gemini_api_key_here"
+
+Step 5: Start the Application
+Run the FastAPI development server:
+uvicorn main:app --reload
 
 You can use sample database from database folder in this repository. The Schema of Chinook database is shown below
 
