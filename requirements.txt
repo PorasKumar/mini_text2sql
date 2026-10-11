@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+langchain-google-genai
+python-dotenv
+jinja2
+sqlalchemy
+langchain
+python-multipart
+langchain-huggingface
+sentence-transformers
+rank_bm25
+langchain-community
+langchain-classic
